@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(101, 177, 50);
+}
+
+.main {
+    background: cornsilk;
+    width: 400px;
+    margin: 200px auto;
+    height: 175px;
+    position: relative;
+    padding: 30px;
+}
+
+.badge {
+    width: 96px;
+    background: darkgoldenrod;
+    color: white;
+    padding: 5px 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: -15px;
+    left: 40%;
+}
+
+.clock {
+    background: yellow;
+    text-align: center;
+    font-size: 75px;
+    height: 100%;
+    padding-top: 15px;
+    border-radius: 4px;
+
+}
